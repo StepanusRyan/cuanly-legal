@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hapus Akun Cuanly</title>
+<meta name="description" content="Cara menghapus akun Cuanly beserta data yang ikut dihapus.">
+<!--
+  Halaman penghapusan akun untuk form Keamanan Data Google Play
+  ("URL penghapusan akun"). Harus bisa dibuka tanpa memasang aplikasi.
+  Diterbitkan lewat GitHub Pages dari folder docs/.
+
+  ⚠️ Ganti EMAIL_DEVELOPER di bawah dengan email kontak developer yang sama
+  dengan di listing Play Store sebelum diterbitkan.
+-->
+<style>
+  :root {
+    --bg: #f7f9fc;
+    --card: #ffffff;
+    --text: #1a1c1e;
+    --muted: #5b6270;
+    --brand: #002045;
+    --gold: #c9a227;
+    --line: #e2e6ee;
+    --danger: #ba1a1a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f141b;
+      --card: #171d26;
+      --text: #e3e7ee;
+      --muted: #a2aab8;
+      --brand: #a9c7ff;
+      --gold: #e6c35c;
+      --line: #2a3240;
+      --danger: #ffb4ab;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 48px; }
+  header { border-bottom: 3px solid var(--gold); padding-bottom: 16px; margin-bottom: 24px; }
+  .app { color: var(--brand); font-weight: 700; letter-spacing: .02em; margin: 0; }
+  h1 { font-size: 1.75rem; line-height: 1.25; margin: 4px 0 8px; }
+  h2 { font-size: 1.15rem; color: var(--brand); margin: 0 0 8px; }
+  .lead { color: var(--muted); margin: 0; }
+  section {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+  ol, ul { padding-left: 1.25rem; margin: 8px 0 0; }
+  li + li { margin-top: 6px; }
+  .warn { color: var(--danger); font-weight: 600; }
+  a { color: var(--brand); }
+  footer { color: var(--muted); font-size: .875rem; margin-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="app">Cuanly-Pencatat Keuangan</p>
+    <h1>Menghapus akun Cuanly-Pencatat Keuangan</h1>
+    <p class="lead">Aplikasi pencatat keuangan.
+      Halaman ini menjelaskan cara menghapus akunmu dan data apa saja yang ikut dihapus.</p>
+  </header>
+
+  <section>
+    <h2>Cara 1 — Dari aplikasi (langsung terhapus)</h2>
+    <ol>
+      <li>Buka aplikasi Cuanly-Pencatat Keuangan dan pastikan kamu masuk dengan akun Google yang ingin dihapus.</li>
+      <li>Buka tab <b>Profile</b>.</li>
+      <li>Gulir ke paling bawah, ketuk <b>Hapus Akun</b> (di bawah tombol Keluar).</li>
+      <li>Baca peringatannya, lalu ketuk <b>Hapus Permanen</b>.</li>
+    </ol>
+    <p>Penghapusan berjalan saat itu juga. HP harus tersambung ke internet.</p>
+  </section>
+
+  <section>
+    <h2>Cara 2 — Lewat email (kalau aplikasi sudah tidak terpasang)</h2>
+    <p>Kirim email ke <a href="mailto:nusandeveloper@gmail.com?subject=Permintaan%20hapus%20akun%20Cuanly">nusandeveloper@gmail.com</a>
+      dengan subjek <b>Permintaan hapus akun Cuanly-Pencatat Keuangan</b>, <b>dari alamat Gmail yang dipakai untuk masuk ke Cuanly-Pencatat Keuangan</b>.
+      Alamat pengirim itulah yang kami pakai untuk memastikan permintaan benar-benar darimu.</p>
+    <p>Permintaan diproses paling lambat <b>30 hari</b> sejak email diterima, dan kami akan membalas setelah akunmu dihapus.</p>
+  </section>
+
+  <section>
+    <h2>Data yang dihapus</h2>
+    <ul>
+      <li>Identitas akun: nama, alamat email, foto profil Google, dan ID pengguna.</li>
+      <li>Semua transaksi yang pernah kamu catat (judul, nominal, kategori, catatan, tanggal).</li>
+      <li>Sesi login di semua perangkat.</li>
+    </ul>
+    <p class="warn">Penghapusan bersifat permanen dan tidak bisa dibatalkan.</p>
+  </section>
+
+  <section>
+    <h2>Data yang tidak disimpan</h2>
+    <p>Kami tidak menyimpan salinan data akunmu setelah dihapus. Pengaturan yang hanya tersimpan di HP
+      (misalnya jam pengingat harian) tidak pernah dikirim ke server dan ikut hilang saat aplikasi dihapus dari HP.</p>
+    <p>Kamu tetap boleh masuk lagi nanti dengan akun Google yang sama; akunnya akan dibuat ulang dari kosong.</p>
+  </section>
+
+  <footer>Cuanly - Pencatat Keuangan</footer>
+</main>
+</body>
+</html>
